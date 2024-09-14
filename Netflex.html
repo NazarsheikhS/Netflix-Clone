@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India-Watch TvShows</title>
+    <link rel="stylesheet" href="./Netflex.css">
+    <link rel="shortcut icon" type="x-icon"
+        href="data:image/png;base64,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">
+
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <img src="./../Image/NetFlixStyle.png" alt="">
+            </div>
+
+            <div class="lang">
+                <div class="btn">
+                <button class="btn1">
+                    <select name="" id="">
+                        <option value="" selected>!--Language--!</option>
+                        <option value="">English</option>
+                        <option value="">Hindi</option>
+                    </select>
+                </button>
+
+                </div>
+
+                <div class="btn2">
+                    <button>Sign In</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tittle">
+
+            <div class="Ulimited">
+                <h1>Unlimited movies, TV shows and more</h1>
+            </div>
+
+            <div class="Watch">
+                <h2>Watch anywhere. Cancel anytime.</h2>
+            </div>
+
+            <div class="Ready">
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            </div>
+
+            <div class="Email">
+                <div class="Get_Start">
+                    <input type="email" placeholder="Email Address">
+                    <button>Get Start > </button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container1"> </div>
+
+        <div class="container2">
+            <div class="Enjoy">
+                <h1>Enjoy on your TV</h1>
+                <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h2>
+
+
+            </div>
+
+
+            <div class="Tv">
+                    <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay loop muted plays-inline></video>
+                    <div class="remote"></div>
+            </div>
+        </div>
+
+        <div class="container3"> </div>
+
+        <div class="container4">
+            <div class="demo">
+                <div class="mobaile">
+                    <img src="./../Image/mobile-0819.jpg" alt="">
+                    <div class="download">
+
+                        <img src="./../Image/boxshot.png" alt="">
+                        <p>Stranger Things</p>
+                        <span>Downloading...</span>
+                        <img src="./../Image/download-icon.gif" alt="">
+                    </div>
+                </div>
+
+                <div class="mobaile1">
+
+                    <h1>Download your shows to watch offline</h1>
+                    <h2>Save your favourites easily and always have something to watch.</h2>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container5"> </div>
+
+
+        <div class="container6">
+            <div class="demo1">
+                <div class="Every">
+
+                    <h1>Watch everywhere</h1>
+                    <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
+
+                </div>
+
+                <div class="Every1">
+                    <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" autoplay loop muted plays-inline></video>
+                    <div class="diwali"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container7"> </div>
+
+        <div class="container8">
+            <div class="Motu">
+                <img src="./../Image/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="">
+
+            </div>
+
+            <div class="Motu1">
+                <h1>Create profiles for kids</h1>
+                <h2>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h2>
+
+            </div>
+        </div>
+
+        <div class="container9"> </div>
+
+
+        <div class="Freq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="according">
+                <li>
+                    <input type="radio" name="according" id="first">
+                    <label for="first">What is Netflix?</label>
+                    <div class="content">
+                      <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. <br><br><br>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+                      </p>  
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="according" id="second">
+                    <label for="second">How much does Netflix cost?</label>
+                    <div class="content">
+                      <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹649 to ₹149 a month. No extra costs, no contracts.</p>  
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="according" id="third">
+                    <label for="third">Where can I watch?</label>
+                    <div class="content">
+                      <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. <br><br><br>
+        
+                        You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                        </p>  
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="according" id="four">
+                    <label for="four">How do i cancel?</label>
+                    <div class="content">
+                      <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>  
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="according" id="fifth">
+                    <label for="fifth">What can I watch on Netflix?</label>
+                    <div class="content">
+                      <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                    </p>  
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="according" id="sixth">
+                    <label for="sixth">Is Netflix good for kids?</label>
+                    <div class="content">
+                      <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space. <br><br><br>
+        
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>  
+                    </div>
+                </li>
+                
+            </ul>
+
+            <div class="plac">
+                <div class="Get">
+                    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                    <input type="email" placeholder="Email Address">
+                    <button>Get Start > </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container10"> </div>
+
+        <div class="footer">
+            <h2>Questions? Call 000-800-919-1694</h2>
+            <div class="col">
+                <a href="">FAQ</a>
+                <a href="">Investor Relations</a>
+                <a href="">Privacy</a>
+                <a href="">Speed Test</a>
+            </div>
+            
+            <div class="col">
+                <a href="">Ways to Watch</a>
+                <a href="">Media Centre</a>
+                <a href="">Only on Netflix</a>
+                <a href="">Speed Test</a>
+            </div>
+        
+            <div class="col">
+                <a href="">Jobs</a>
+                <a href="">Terms of Use</a>
+                <a href="">Cookie Preferences</a>
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+        
+
+        
+        </body>
+        </html>

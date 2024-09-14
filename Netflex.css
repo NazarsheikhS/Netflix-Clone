@@ -1,0 +1,519 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background:linear-gradient(0deg, rgba(17, 17, 17, 0.733), rgba(17, 17, 17, 0.856)), url(https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+}
+.container .nav{
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid white ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .nav .logo{
+    height: 80px;
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .nav .logo img{
+    height: 50px;
+    width: 200px;
+}
+.container .nav .lang{
+    height: 80px;
+    width: 50%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.container .nav .lang .btn1{
+    height: 35px;
+    width: 120px;
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin: 35px;
+}
+
+.container .nav .lang .btn2 button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(231, 58, 58);
+    border-radius: 7px;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 18px;
+}
+.tittle{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.tittle .Ulimited{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle .Ulimited h1{
+    color: white;
+    font-size: 60px;
+}
+.tittle .Watch{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid white; */
+}
+.tittle .Watch h2{
+    color: white;
+    font-size: 30px;
+}
+.tittle .Ready{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 1px solid white; */
+}
+.tittle .Ready h3{
+    color: white;
+    font-size: 30px;
+
+}
+.tittle .Email{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle .Email .Get_Start input{
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid green;
+    
+}
+.tittle .Email .Get_Start button{
+    height: 60px;
+    width: 200px;
+    background-color:rgb(199, 28, 28) ;
+    font-size: 25px;
+    color: white;
+    border-radius: 8px;
+}
+.container1{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.container2{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .Enjoy{
+    height: 300px;
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container2 .Enjoy h1{
+    color: white;
+    font-size: 50px;
+}
+.container2 .Enjoy h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container2 .Tv{
+    height: 450px;
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+.Tv video{
+    height: 100%;
+    width: 61%;
+}
+.container2 .remote{
+    height: 400px;
+    width: 75%;
+    /* border: 1px solid white; */
+    position: absolute;
+    background-image: url(./../Image/tv.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container3{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+.container4{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container4 .demo{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4 .demo .mobaile{
+    height: 400px;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container4 .demo .mobaile img{
+    height: 370px;
+    width: 70%;
+}
+.container4 .demo .mobaile .download{
+    height: 100px;
+    width: 320px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container4 .demo .mobaile .download img{
+    height: 90px;
+    width: 40px;
+}
+.container4 .demo .mobaile .download p{
+    font-size: 18px;
+    color: white;
+    
+}
+.container4 .demo .mobaile .download span{
+    font-size: 18px;
+    color: blue;
+    
+}
+.container4 .demo .mobaile1{
+    height: 400px;
+    width: 35%;
+    /* border: 1px solid wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container4 .demo .mobaile1 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.container4 .demo .mobaile1 h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.container5{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.container6{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container6 .demo1{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6 .demo1 .Every{
+    height: 400px;
+    width: 40%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Every h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+}
+.Every h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container6 .demo1 .Every1{
+    height: 400px;
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container6 .diwali{
+    height: 500px;
+    width: 110%;
+    /* border: 1px solid white; */
+    position: absolute;
+    background-image: url(./../Image/device-pile-in.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container7{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+.container8{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container8 .Motu{
+    height: 450px;
+    width: 50%;
+    /* border: 1px soli-d white; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container8 .Motu img{
+    height: 400px;
+    width: 70%;
+}
+
+.container8 .Motu1{
+    height: 450px;
+    width: 30%;
+    /* border: 1px solid white; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container8 .Motu1 h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+.container8 .Motu1 h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container9{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+   
+}
+
+.Freq{
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    height: 900px;
+    width: 100%;
+}
+.Freq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.according{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.according li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.according label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500px;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    color: white;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.according .content{
+    background: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+    color: white;
+    
+}
+.according input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.according input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+
+.plac{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.plac .Get input{
+    height: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid green;
+    
+}
+.plac .Get button{
+    height: 60px;
+    width: 200px;
+    background-color:rgb(199, 28, 28) ;
+    font-size: 25px;
+    color: white;
+    border-radius: 8px;
+}
+
+.container10{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+   
+}
+
+.footer{
+    padding: 50px 15px 10px;
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    
+}
+.footer h2{
+    font-size: 25px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+.footer col{
+    flex-basis: 25%;
+    flex-grow: 1px;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
